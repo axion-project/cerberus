@@ -1,0 +1,72 @@
+# Cerberus AI Security - Requirements
+# Core AI/ML dependencies
+pytector>=1.0.0                    # Prompt injection detection (primary dependency)
+transformers>=4.30.0               # For NLP models and tokenization
+torch>=2.0.0                       # PyTorch for deep learning models
+numpy>=1.24.0                      # Numerical computing
+scikit-learn>=1.3.0                # Machine learning utilities
+
+# Google AI/Gemini integration
+google-generativeai>=0.3.0         # Google Gemini API client
+google-cloud-aiplatform>=1.25.0    # Google Cloud AI Platform
+google-auth>=2.17.0                # Google authentication
+google-api-python-client>=2.80.0   # Google API client
+
+# Security and monitoring
+cryptography>=41.0.0               # Cryptographic operations
+pyjwt>=2.6.0                       # JWT token handling
+passlib>=1.7.4                     # Password hashing
+python-jose>=3.3.0                 # JSON Web Signatures
+
+# Web framework and API
+fastapi>=0.100.0                   # Modern web framework for APIs
+uvicorn>=0.22.0                    # ASGI server
+pydantic>=2.0.0                    # Data validation and serialization
+httpx>=0.24.0                      # Async HTTP client
+
+# Database and caching
+sqlalchemy>=2.0.0                  # SQL toolkit and ORM
+alembic>=1.11.0                    # Database migrations
+redis>=4.5.0                       # In-memory data store for caching
+psycopg2-binary>=2.9.0             # PostgreSQL adapter
+
+# Configuration and environment
+python-dotenv>=1.0.0               # Environment variable management
+pyyaml>=6.0                        # YAML configuration files
+toml>=0.10.2                       # TOML configuration support
+
+# Logging and monitoring
+structlog>=23.1.0                  # Structured logging
+prometheus-client>=0.16.0          # Metrics collection
+sentry-sdk>=1.25.0                 # Error tracking and monitoring
+
+# Data processing and analysis
+pandas>=2.0.0                      # Data manipulation and analysis
+jsonschema>=4.17.0                 # JSON schema validation
+python-multipart>=0.0.6            # Form data parsing
+
+# Async and concurrency
+asyncio-mqtt>=0.16.0               # MQTT async client
+aiofiles>=23.1.0                   # Async file operations
+aioredis>=2.0.0                    # Async Redis client
+
+# Utilities
+click>=8.1.0                       # Command line interface
+rich>=13.3.0                       # Rich text and beautiful formatting
+python-dateutil>=2.8.0             # Date/time utilities
+requests>=2.31.0                   # HTTP library
+urllib3>=2.0.0                     # HTTP client
+
+# Development and testing (optional - move to requirements-dev.txt if preferred)
+pytest>=7.3.0                     # Testing framework
+pytest-asyncio>=0.21.0             # Async testing support
+pytest-cov>=4.1.0                 # Coverage reporting
+black>=23.3.0                      # Code formatting
+mypy>=1.3.0                        # Static type checking
+flake8>=6.0.0                      # Linting
+pre-commit>=3.3.0                  # Git hooks
+bandit>=1.7.5                      # Security linting
+
+# Documentation
+sphinx>=7.0.0                      # Documentation generation
+sphinx-rtd-theme>=1.2.0            # ReadTheDocs theme
