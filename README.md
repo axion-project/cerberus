@@ -52,8 +52,8 @@ This project is under active development. The initial commit provides the founda
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/axion-project/Cerberus.git](https://github.com/axion-project/Cerberus.git)
-    cd Cerberus
+    git clone https://github.com/axion-project/cerberus.git
+    cd cerberus
     ```
 2.  **Install dependencies:**
     ```bash
