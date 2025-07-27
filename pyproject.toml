@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+
+[project]
+name = "cerberus-ai-security"
+version = "0.1.0"
+dependencies = [
+    "pytector>=1.0.0",
+    # other deps
+]
+optional-dependencies.dev = [
+    "pytest>=7.0",
+    "black",
+    "mypy",
+]
